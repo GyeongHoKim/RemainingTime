@@ -49,16 +49,19 @@ ol {
 
 .left-title {
 	font-size: 80px;
+	color: #FFF;
 }
 
 .left-seconds {
 	font-size: 40px;
+	color: #E5E7E9;
 }
 
 .left-age-question,
 .todo-question {
 	font-size: 40px;
 	text-align: center;
+	color: #E5E7E9;
 }
 
 .left-age-question:focus,
