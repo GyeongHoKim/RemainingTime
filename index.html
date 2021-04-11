@@ -9,15 +9,23 @@
 	<title>countDown</title>
 </head>
 <body>
-	<head>
-		<h1 class="left-title">
-			Your Time is Left for
-		</h1>
-		<p class="left-seconds"></p>
-	</head>
-	<main>
-		<input class="left-age-question" type="text" placeholder="Enter your age" />
-		<input class="todo-question sr-only" type="text" placeholder="What will you do today?" />
-	</main>
+    <section class="main-page">
+        <head>
+            <h1 class="left-title">
+                Your Time is Left for
+            </h1>
+            <p class="left-seconds"></p>
+        </head>
+        <main>
+            <form action="#" class="questions">
+                <input class="left-age-question" type="text" placeholder="Enter your age" />
+                <input class="todo-question sr-only" type="text" placeholder="What will you do today?" />
+            </form>
+            <ol class="todo-list sr-only">
+                <li>first thing</li>
+            </ol>
+        </main>
+    </section>
+    <script src="./js/timeLeft.js"></script>
 </body>
 </html>
