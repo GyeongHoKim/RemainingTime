@@ -1,0 +1,23 @@
+/* RESET CSS */
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+input, input:active {
+	border: none;
+}
+
+ul, ol {
+	margin-left: 0;
+	list-style: none;
+}
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	z-index: -9999;
+}
+
+/* LEFT TIME */
