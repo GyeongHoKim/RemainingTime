@@ -9,6 +9,11 @@ input {
 	font-family: 'Caveat', cursive;
 }
 
+body {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 input,
 input:focus {
 	border: none;
@@ -66,4 +71,6 @@ ol {
 .left-age-question:focus {
 	border-bottom: solid 2x blue;
 }
+
+/* BackGround */
 
