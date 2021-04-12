@@ -57,14 +57,13 @@ ol {
 	color: #E5E7E9;
 }
 
-.left-age-question,
-.todo-question {
+.left-age-question {
 	font-size: 40px;
 	text-align: center;
 	color: #E5E7E9;
 }
 
-.left-age-question:focus,
-.todo-question:focus {
+.left-age-question:focus {
 	border-bottom: solid 2x blue;
 }
+
