@@ -14,11 +14,16 @@ body {
 	background-size: cover;
 }
 
-input,
-input:focus {
-	border: none;
-	outline: none;
+input {
 	background-color: inherit;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #E5E7E9;
+}
+
+input:focus {
+	background-color: inherit;
+  border-color: blue;
 }
 
 ul,
