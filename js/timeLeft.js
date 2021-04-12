@@ -6,13 +6,6 @@ const ageQuestion = document.querySelector('.left-age-question');
 const leftSecs = document.querySelector('.left-seconds');
 const localStorage = window.localStorage;
 
-// ageQuestion.addEventListener('keyup', function (event) {
-// 	if (event.code === 'Enter') {
-// 		event.preventDefault();
-// 		form.submit();
-// 	}
-// });
-
 function saveAge(age) {
 	localStorage.setItem(USER_AGE, age);
 }
@@ -20,15 +13,20 @@ function saveAge(age) {
 function handleAge(event) {
 	event.preventDefault();
 	const age = ageQuestion.value;
-	console.log('submit event entered');
 	showLeft(age);
 	saveAge(age);
 }
 
 function showLeft(age) {
+	if (age === null) return;
+	const date = new Date();
+	const hourToSecond = 60 * 60;
+	const dayToSecond = 24 * hourToSecond;
+	const monthToSecond = [31 * dayToSecond, 28 * dayToSecond, 31 * dayToSecond, 30 * dayToSecond, 31 * dayToSecond, 30 * dayToSecond, 31 * dayToSecond, 31 * dayToSecond, 30 * dayToSecond, 31 * dayToSecond, 30 * dayToSecond, 31 * dayToSecond ];
+	let left_time = MAX_LIFE_TIME - ((age - 1) * yearToSecond + monthToSecond[date.getMonth()] + (date.getDate() - 1) * dayToSecond + (date.getHours() - 1) * hourToSecond + (date.getMinutes() - 1) * 60 + date.getSeconds());
 	ageQuestion.classList.add('sr-only');
 	leftSecs.classList.remove('sr-only');
-	leftSecs.innerText = `${MAX_LIFE_TIME - age * yearToSecond} Sec.`;
+	leftSecs.innerText = `${left_time} Sec.`;
 }
 
 function askForAge() {
@@ -37,9 +35,10 @@ function askForAge() {
 }
 
 function loadTime() {
-	const age = localStorage.getItem(USER_AGE);
+	let age = localStorage.getItem(USER_AGE);
 	if (age === null) {
 		askForAge();
+		age = localStorage.getItem(USER_AGE);
 	} else {
 		showLeft(age);
 	}
@@ -47,6 +46,7 @@ function loadTime() {
 
 function init() {
 	loadTime();
+	setInterval(loadTime, 1000);
 }
 
 init();
