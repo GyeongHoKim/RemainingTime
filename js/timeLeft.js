@@ -18,7 +18,6 @@ function handleAge(event) {
 }
 
 function showLeft(age) {
-	if (age === null) return;
 	const date = new Date();
 	const hourToSecond = 60 * 60;
 	const dayToSecond = 24 * hourToSecond;
