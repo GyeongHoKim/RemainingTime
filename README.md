@@ -10,6 +10,12 @@
 
 not yet
 
+# Version
+
+## version 1.0
+
+made with Vanilla Java Script
+
 # License
 
 [MIT licensed](./LICENSE)
