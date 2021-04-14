@@ -8,9 +8,21 @@
 
 # Installation
 
-not yet
+## Chrome Extension
 
 ![chrome-developer-dashboard](./assets/chrome-icon/notYet.png)
+
+not ready
+
+### manual installation
+
+1. Enter `chrome://extensions/`
+2. Toggle "Developeer Mode"
+3. Upload local folder(download zip file from github first)
+
+## Web site
+
+https://gyeonghokim.github.io/RemainingTime/
 
 # Version
 
