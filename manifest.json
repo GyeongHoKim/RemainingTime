@@ -2,7 +2,7 @@
 	"name": "left time",
 	"description": "count down your life time",
 	"version": "1.0",
-	"manifest_version": 3
+	"manifest_version": 3,
 	"brower_action": {
 		"default_icon": "./assets/favicon/sand-clock.png"
 	},
