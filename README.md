@@ -10,6 +10,8 @@
 
 not yet
 
+![chrome-developer-dashboard](./assets/chrome-icon/notYet.png)
+
 # Version
 
 ## version 1.0
