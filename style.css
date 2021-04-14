@@ -16,14 +16,15 @@ body {
 
 input {
 	background-color: inherit;
-  outline: 0;
-  border-width: 0 0 2px;
-  border-color: #E5E7E9;
+	color: #899098;
+	outline: 0;
+	border-width: 0 0 2px;
+	border-color: #e5e7e9;
 }
 
 input:focus {
 	background-color: inherit;
-  border-color: #90DCFF;
+	border-color: #90dcff;
 }
 
 ul,
@@ -59,23 +60,88 @@ ol {
 
 .left-title {
 	font-size: 80px;
-	color: #FFF;
+	color: #fff;
 }
 
 .left-seconds {
 	font-size: 40px;
-	color: #E5E7E9;
+	color: #899098;
+	margin-bottom: 80px;
 }
 
 .left-age-question {
 	font-size: 40px;
 	text-align: center;
-	color: #E5E7E9;
+	color: #899098;
 }
 
 .left-age-question:focus {
 	border-bottom: solid 2x blue;
 }
 
-/* BackGround */
+/* ToDo List */
 
+.todo-container {
+  max-width: 600px;
+  width: 50vw;
+  display: table;
+  margin: 0 auto;
+  margin-top: 40px;
+  border: 1px solid #cfcbcc;
+	font-size: 30px;
+}
+
+.left-todo-question {
+	border: none;
+  display: block;
+  width: 100%;
+  line-height: 1.5;
+  padding: 8px 0 8px 10px;
+  border-bottom: 1px solid #cfcbcc;
+  outline:0;
+	font-size: 30px;
+	text-align: center;
+}
+
+.todo-list li {
+	color: #899098;
+	font-weight: 400;
+	border-bottom: 1px solid #cfcbcc;
+	line-height: 1.5;
+	padding: 8px 0;
+}
+
+.todo-list li:before {
+	content: '\25A1';
+	padding: 10px 10px;
+	font-size: 20px;
+}
+
+.todo-list li:hover {
+	text-decoration: line-through;
+	cursor: pointer;
+}
+
+.todo-list li:last-child {
+	border-bottom: none;
+}
+
+.todo-list .checked {
+	color: yellow;
+}
+
+.todo-list .checked:before {
+	content: '\2713';
+	padding: 10px 10px;
+	font-size: 20px;
+}
+
+.checked:hover {
+	text-decoration: none;
+}
+
+.checked:hover:after {
+	content: '(remove)';
+	color: tomato;
+	text-align: right;
+}

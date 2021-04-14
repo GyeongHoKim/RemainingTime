@@ -26,6 +26,7 @@ function showLeft(age) {
 	ageQuestion.classList.add('sr-only');
 	leftSecs.classList.remove('sr-only');
 	leftSecs.innerText = `${left_time} Sec.`;
+	document.querySelector(".left-todo-question").classList.remove("sr-only");
 }
 
 function askForAge() {
