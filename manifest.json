@@ -1,5 +1,15 @@
 {
 	"name": "left time",
+	"description": "count down your life time",
 	"version": "1.0",
-	"manifest_version": 2
+	"manifest_version": 3
+	"brower_action": {
+		"default_icon": "./assets/favicon/sand-clock.png"
+	},
+	"permissions": [
+		"storage"
+	],
+	"chrome_url_overrides": {
+		"newtab": "index.html"
+	}
 }
