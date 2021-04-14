@@ -1,2 +1,6 @@
 # Goorm setup
 goorm.manifest
+
+# React
+node_modules/
+package-lock.json
