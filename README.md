@@ -30,6 +30,12 @@ https://gyeonghokim.github.io/RemainingTime/
 
 made with Vanilla Java Script
 
+### screen shots
+
+![version1-screenShot1](./assets/chrome-icon/screenShot1.png)
+![version1-screenShot2](./assets/chrome-icon/screenShot2.png)
+![version1-screenShot3](./assets/chrome-icon/screenShot3.png)
+
 # License
 
 [MIT licensed](./LICENSE)
