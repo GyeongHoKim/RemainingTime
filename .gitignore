@@ -4,3 +4,27 @@ goorm.manifest
 # React
 node_modules/
 package-lock.json
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/react-ver/node_modules
+/react-ver/pnp
+/react-ver/pnp.js
+
+# testing
+/react-ver/coverage
+
+# production
+/react-ver/build
+
+# misc
+./react-ver/DS_Store
+./react-ver/env.local
+./react-ver/env.development.local
+./react-ver/env.test.local
+./react-ver/env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
