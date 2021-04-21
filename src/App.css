@@ -12,6 +12,7 @@ input {
 body {
 	background-repeat: no-repeat;
 	background-size: cover;
+	/* background-color: black; */
 }
 
 input {
@@ -47,38 +48,7 @@ ol {
 	white-space: nowrap !important;
 }
 
-.main-page {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
-	width: 100%;
-}
-
 /* LEFT TIME */
-
-.left-title {
-	font-size: 80px;
-	color: #fff;
-}
-
-.left-seconds {
-	font-size: 40px;
-	color: #899098;
-	margin-bottom: 80px;
-	text-align: center;
-}
-
-.left-age-question {
-	font-size: 40px;
-	text-align: center;
-	color: #899098;
-}
-
-.left-age-question:focus {
-	border-bottom: solid 2x blue;
-}
 
 /* ToDo List */
 
@@ -105,7 +75,7 @@ ol {
 }
 
 .todo-list li {
-	color: #899098;
+	/* color: #899098; */
 	font-weight: 400;
 	border-bottom: 1px solid #cfcbcc;
 	line-height: 1.5;
