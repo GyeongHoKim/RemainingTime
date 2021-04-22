@@ -4,15 +4,14 @@
 	margin: 0;
 }
 
-body,
+.App,
 input {
 	font-family: 'Caveat', cursive;
 }
 
-body {
+.App {
 	background-repeat: no-repeat;
 	background-size: cover;
-	/* background-color: black; */
 }
 
 input {
@@ -47,9 +46,6 @@ ol {
 	width: 1px !important;
 	white-space: nowrap !important;
 }
-
-/* LEFT TIME */
-
 /* ToDo List */
 
 .todo-container {

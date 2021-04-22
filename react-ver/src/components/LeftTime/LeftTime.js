@@ -21,12 +21,14 @@ const StyledLeftTime = styled.section`
 
 const StyledTitle = styled.h1`
 	font-size: 80px;
+	color: white;
 `;
 
 const StyledParagraph = styled.p`
 	${props => props.srOnly === true ?
 		css`
 			font-size: 40px;
+			color: #899098;
 		`
 		:
 		css`
