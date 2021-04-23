@@ -10,9 +10,7 @@
 
 ## Chrome Extension
 
-![chrome-developer-dashboard](./assets/chrome-icon/notYet.png)
-
-not ready
+[chrome extension link](https://chrome.google.com/webstore/detail/remaining-time/pbipdikihhcimlmbgneoioncgbndonpn)
 
 ### manual installation
 
