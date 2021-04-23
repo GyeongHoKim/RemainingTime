@@ -1,0 +1,48 @@
+/* RESET CSS */
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+.App,
+input {
+	font-family: 'Caveat', cursive;
+}
+
+.App {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+input {
+	background-color: inherit;
+	color: #899098;
+	outline: 0;
+	border-width: 0 0 2px;
+	border-color: #e5e7e9;
+}
+
+input:focus {
+	background-color: inherit;
+	border-color: #90dcff;
+}
+
+ul,
+ol {
+	padding-left: 0;
+	list-style: none;
+}
+
+.sr-only {
+	border: 0 !important;
+	clip: rect(1px, 1px, 1px, 1px) !important;
+	-webkit-clip-path: inset(50%) !important;
+	clip-path: inset(50%) !important;
+	height: 1px !important;
+	margin: -1px !important;
+	overflow: hidden !important;
+	padding: 0 !important;
+	position: absolute !important;
+	width: 1px !important;
+	white-space: nowrap !important;
+}
