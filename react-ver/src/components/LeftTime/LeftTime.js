@@ -1,4 +1,5 @@
 import React from "react";
+import ToDo from "../ToDo";
 import styled, { css } from 'styled-components';
 
 // calculate left time
@@ -116,6 +117,7 @@ class LeftTime extends React.Component {
 					<StyledInput srOnly={this.state.ageExist} onChange={this.handleAge} type="text" placeholder="Enter your age" />
 				</form>
 				<StyledParagraph srOnly={this.state.ageExist}>{this.state.seconds} Sec.</StyledParagraph>
+				<ToDo flag={this.state.ageExist} />
 			</StyledLeftTime>
 		);
 	}
