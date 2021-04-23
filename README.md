@@ -28,16 +28,26 @@ https://gyeonghokim.github.io/RemainingTime/
 
 made with Vanilla Java Script
 
+<<<<<<< HEAD
 ## version 1.1
 
 made with react js framework
 
+=======
+>>>>>>> react
 ### screen shots
 
 ![version1-screenShot1](./assets/screenShot1.png)
 ![version1-screenShot2](./assets/screenShot2.png)
 ![version1-screenShot3](./assets/screenShot3.png)
 
+<<<<<<< HEAD
+=======
+## version 1.1
+
+made with react js framework
+
+>>>>>>> react
 # License
 
 [MIT licensed](./LICENSE)
