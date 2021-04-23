@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/remainingtime/static/css/main.ec59fd0f.chunk.css",
+    "main.js": "/remainingtime/static/js/main.48a51e22.chunk.js",
+    "main.js.map": "/remainingtime/static/js/main.48a51e22.chunk.js.map",
+    "runtime-main.js": "/remainingtime/static/js/runtime-main.92afe718.js",
+    "runtime-main.js.map": "/remainingtime/static/js/runtime-main.92afe718.js.map",
+    "static/js/2.1e81a32f.chunk.js": "/remainingtime/static/js/2.1e81a32f.chunk.js",
+    "static/js/2.1e81a32f.chunk.js.map": "/remainingtime/static/js/2.1e81a32f.chunk.js.map",
+    "static/js/3.fee4a5e1.chunk.js": "/remainingtime/static/js/3.fee4a5e1.chunk.js",
+    "static/js/3.fee4a5e1.chunk.js.map": "/remainingtime/static/js/3.fee4a5e1.chunk.js.map",
+    "index.html": "/remainingtime/index.html",
+    "static/css/main.ec59fd0f.chunk.css.map": "/remainingtime/static/css/main.ec59fd0f.chunk.css.map",
+    "static/js/2.1e81a32f.chunk.js.LICENSE.txt": "/remainingtime/static/js/2.1e81a32f.chunk.js.LICENSE.txt",
+    "static/media/blackTexture.05cb44d5.jpg": "/remainingtime/static/media/blackTexture.05cb44d5.jpg",
+    "static/media/scentCandle.afb45a9b.jpg": "/remainingtime/static/media/scentCandle.afb45a9b.jpg",
+    "static/media/star.e2bcca17.jpg": "/remainingtime/static/media/star.e2bcca17.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.92afe718.js",
+    "static/js/2.1e81a32f.chunk.js",
+    "static/css/main.ec59fd0f.chunk.css",
+    "static/js/main.48a51e22.chunk.js"
+  ]
+}
